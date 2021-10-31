@@ -31,3 +31,41 @@ git commit -a -m "docs: 添加README.md、CHANGELOG.md、.gitignore"
 git push -u origin main
 ```
 
+#### 创建 package.json 文件
+
+```bash
+pnpm init
+```
+
+#### 添加 TypeScript
+
+```bash
+# 安装 TypeScript ，并创建 tsconfig.json
+pnpm add -D typescript && pnpm tsc --init
+# 通过 tsc 编译并执行
+pnpm tsc && node dist/es/index.js
+```
+
+#### 添加 Prettier
+
+```bash
+pnpm add -D prettier
+```
+
+#### 添加 ESLint
+
+```bash
+pnpm add -D eslint
+pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
+pnpm add -D eslint-config-airbnb eslint-config-airbnb-typescript
+pnpm add -D eslint-plugin-import eslint-plugin-jsx-a11y
+pnpm add -D eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks
+```
+
+#### 添加 React
+
+```bash
+pnpm add react react-dom
+pnpm add -D @types/react @types/react-dom
+```
+
