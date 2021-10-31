@@ -107,3 +107,5 @@ npx husky add .husky/pre-commit "npx --no-install lint-staged"
 npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 ```
 
+#### 参考 [Parsing error](https://stackoverflow.com/questions/64271575/error-with-my-eslintrc-js-file-parsing-error-parseroptions-project-has) 解决 eslint 报错
+

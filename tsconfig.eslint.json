@@ -1,0 +1,12 @@
+// 只被ESLint使用的，特殊的typescript项目文件
+{
+    "extends": "./tsconfig.json",
+    "include": [
+        // 与tsconfig.json中的"include"一样
+        "src/**/*",
+
+        // eslint会lint，下面的不在typescript项目中的文件
+        ".eslintrc.js",
+        "commitlint.config.js",
+    ]
+}
