@@ -1,5 +1,10 @@
-function hello(name: string) {
-  console.info(`Hello ${name}`);
-}
+import { StrictMode } from 'react';
+import { render } from 'react-dom';
+import App from './App';
 
-hello('world');
+render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById('react-mount-point')
+);
