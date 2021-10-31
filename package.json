@@ -14,6 +14,7 @@
   "author": "izypd <52zypd@gmail.com>",
   "license": "GPL-3.0-only",
   "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
@@ -29,6 +30,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "fork-ts-checker-webpack-plugin": "^6.4.0",
     "prettier": "^2.4.1",
+    "react-refresh": "^0.10.0",
+    "react-refresh-typescript": "^2.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.4",
     "webpack": "^5.61.0",

@@ -79,3 +79,8 @@ pnpm add -D webpack webpack-merge webpack-cli webpack-dev-server webpackbar clea
 
 #### Webpack 集成 ESLint
 
+#### 支持热模块更新(Hot Module Replacement)
+
+```bash
+p add -D @pmmmwh/react-refresh-webpack-plugin react-refresh react-refresh-typescript
+```
