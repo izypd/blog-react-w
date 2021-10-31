@@ -10,14 +10,9 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'prettier',
   ],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'], // Your TypeScript files extension
-      parserOptions: {
-        project: ['./tsconfig.json'], // Specify it only for TypeScript files
-      },
-    },
-  ],
+  parserOptions: {
+    project: './tsconfig.eslint.json',
+  },
   rules: {
     // 在这里添加需要覆盖的规则
   },

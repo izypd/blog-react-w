@@ -82,5 +82,28 @@ pnpm add -D webpack webpack-merge webpack-cli webpack-dev-server webpackbar clea
 #### 支持热模块更新(Hot Module Replacement)
 
 ```bash
-p add -D @pmmmwh/react-refresh-webpack-plugin react-refresh react-refresh-typescript
+pnpm add -D @pmmmwh/react-refresh-webpack-plugin react-refresh react-refresh-typescript
 ```
+
+### 管控 Git 提交
+
+#### 添加 husky、lint-staged、commit-lint
+
+```bash
+pnpm add -D husky lint-staged @commitlint/config-conventional @commitlint/cli
+```
+
+##### 安装 husky
+
+```bash
+npm set-script prepare "husky install"
+pnpm prepare
+```
+
+##### 将 lint-staged 和 commit-lint 挂在 Husky 的 hooks 上
+
+```bash
+npx husky add .husky/pre-commit "npx --no-install lint-staged"
+npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
+```
+
