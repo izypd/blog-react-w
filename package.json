@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "React TypeScript template",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/izypd/react-ts.git"
   },
   "author": "izypd <52zypd@gmail.com>",
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }

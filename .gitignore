@@ -22,3 +22,6 @@ pids
 
 # ESLint 缓存
 .eslintcache
+
+# pnpm
+pnpm-lock.yaml
