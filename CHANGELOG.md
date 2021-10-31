@@ -69,3 +69,11 @@ pnpm add react react-dom
 pnpm add -D @types/react @types/react-dom
 ```
 
+### Webpack 分支
+
+#### 添加 Webpack
+
+```bash
+pnpm add -D webpack webpack-merge webpack-cli webpack-dev-server webpackbar clean-terminal-webpack-plugin ts-loader fork-ts-checker-webpack-plugin
+```
+
