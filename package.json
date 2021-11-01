@@ -1,8 +1,8 @@
 {
-  "name": "react-ts",
+  "name": "blog-react-w",
   "version": "0.0.1",
-  "description": "React TypeScript template",
-  "main": "index.js",
+  "description": "My blog, powered by React",
+  "main": "index.tsx",
   "scripts": {
     "build": "webpack --config scripts/webpack/webpack.prod.config.js",
     "dev": "webpack serve --config scripts/webpack/webpack.dev.config.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/izypd/react-ts.git"
+    "url": "git+https://github.com/izypd/blog-react-w.git"
   },
   "author": "izypd <52zypd@gmail.com>",
   "license": "GPL-3.0-only",
