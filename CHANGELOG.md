@@ -120,3 +120,5 @@ eslint 忽略 Webpack 配置文件
 Webpack 已自动启动 HMR，删除 webpack.dev.config.js 中的 `new webpack.HotModuleReplacementPlugin`
 
 补充README.md
+
+添加GPL许可证
