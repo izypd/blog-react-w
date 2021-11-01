@@ -110,3 +110,12 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 #### 参考 [Parsing error](https://stackoverflow.com/questions/64271575/error-with-my-eslintrc-js-file-parsing-error-parseroptions-project-has) 解决 eslint 报错
 
 ### 为 npm 包添加 ES 模块化和 TypeScript 类型声明
+
+## 21-11-01
+
+eslint 忽略 Webpack 配置文件
+
+删除 webpack.dev.config.js 中导致报错的，在 VSCode 中不显示的字符
+
+Webpack 已自动启动 HMR，删除 webpack.dev.config.js 中的 `new webpack.HotModuleReplacementPlugin`
+
