@@ -122,3 +122,8 @@ Webpack 已自动启动 HMR，删除 webpack.dev.config.js 中的 `new webpack.H
 补充README.md
 
 添加GPL许可证
+
+### 博客
+
+修改项目信息；修改README.md
+
